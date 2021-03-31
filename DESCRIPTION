@@ -1,0 +1,24 @@
+Package: hawkesbow
+Title: Estimation of Hawkes Processes from Binned Observations
+Version: 1.0.0
+Authors@R: 
+    person(given = "Felix",
+           family = "Cheysson",
+           role = c("aut", "cre"),
+           email = "felix@cheysson.fr",
+           comment = c(ORCID = "0000-0002-9095-2878"))
+Description: Implements an estimation method for Hawkes processes when count data are only observed in discrete time, using a spectral approach derived from the Bartlett spectrum, see Cheysson and Lang (2020) <arXiv:2003.04314>. Some general use functions for Hawkes processes are also included: simulation of (in)homogeneous Hawkes process, maximum likelihood estimation, residual analysis, etc.
+License: MIT + file LICENSE
+Encoding: UTF-8
+RoxygenNote: 7.1.0
+Depends: Rcpp
+Imports: methods, nloptr
+Suggests: testthat (>= 2.1.0), knitr, rmarkdown
+LinkingTo: Rcpp, RcppArmadillo, BH
+VignetteBuilder: knitr
+NeedsCompilation: yes
+Packaged: 2021-03-29 16:41:25 UTC; Pheliks
+Author: Felix Cheysson [aut, cre] (<https://orcid.org/0000-0002-9095-2878>)
+Maintainer: Felix Cheysson <felix@cheysson.fr>
+Repository: CRAN
+Date/Publication: 2021-03-31 08:50:10 UTC
